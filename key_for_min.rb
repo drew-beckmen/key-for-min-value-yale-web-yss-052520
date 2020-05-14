@@ -2,5 +2,5 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  name_hash.empty? ? nil : name_hash.min_by {|key, value| value}[0]
+  name_hash.empty? ? nil : find_key(name_hash)
 end

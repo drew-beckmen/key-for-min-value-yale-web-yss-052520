@@ -4,9 +4,9 @@
 def find_key(hash)
   min_key = hash.first[0]
   min_value = hash.first[1]
-  hash.each do |k, v| 
-    
-  end 
+  hash.each do |k, v|
+
+  end
   min_key
 end
 

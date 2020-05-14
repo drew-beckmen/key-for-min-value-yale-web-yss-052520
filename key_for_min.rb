@@ -8,6 +8,7 @@ def find_key(hash)
     if v < min_value
         min_key = k
         min_value = v
+      end
   end
   min_key
 end
